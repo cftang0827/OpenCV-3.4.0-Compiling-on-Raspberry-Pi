@@ -120,7 +120,18 @@ add the following lines at the bottom of bash.bashrc
 (leave a blank line at the end of bash.bashrc)
 save bash.bashrc changes (ctrl+o), then back at the command line (ctrl+x), 
 
-# Step 15:
+
+# Step 17:
+Install Qt4 gui lib
+
+	$ sudo apt-get install libxext6 libxext-dev libqt4-dev
+	$ sudo apt-get install qt4-dev-tools qt4-doc qt4-qtconfig 
+	$ sudo apt-get install python-qt4
+	$ sudo apt-get install python-qt4-*
+	$ sudo apt-get install python-qscintilla2
+
+
+# Step 16:
 Reboot
 
 	$ sudo shutdown -r now
@@ -136,7 +147,7 @@ Type the following lines in the python shell:
 
 the following line should appear then:
 
-	'3.4.0'
+	'3.4.1'
 ## Done
 
 **TODO**
